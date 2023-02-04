@@ -56,14 +56,46 @@
 # #     print('Коробку 1 можно разместить в коробку 2')
 # # else:
 # #     print('Коробки 1 и 2 равны')
+#
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a>b:
+#     a,b = b,a
+# if b>c:
+#     b,c = c,b
+# if a>b:
+#     a,b = b,a
+# print(a,b,c)
 
-a = int(input())
-b = int(input())
-c = int(input())
-if a>b:
-    a,b = b,a
-if b>c:
-    b,c = c,b
-if a>b:
-    a,b = b,a
-print(a,b,c)
+# a = 1
+# while a<=10:
+#     print(a)
+#     a = a+1
+
+# a = int(input())
+# n = int(input())
+#
+# temp = a
+# count = 1
+# while count < n:
+#     a = a*temp
+#     count = count+1
+# print(a)
+
+# a = int(input())
+#
+# count = 2
+# while count<a:
+#     print(count)
+#     count = count+2
+
+# a = int(input())
+#
+# count = a-1
+# while count >=1:
+#     if a%count == 0:
+#         print(count)
+#         break
+#     count = count - 1
+

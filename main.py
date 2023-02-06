@@ -99,3 +99,5 @@
 #         break
 #     count = count - 1
 
+a = 16**2
+print(a)

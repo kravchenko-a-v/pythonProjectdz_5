@@ -33,7 +33,7 @@
 # Для отважных
 
 count = 0
-while 1 > 0:
+while True:
     N = int(input())
     if N > count:
         count = N

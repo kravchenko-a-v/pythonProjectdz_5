@@ -99,5 +99,36 @@
 #         break
 #     count = count - 1
 
-a = 16**2
-print(a)
+# a = 16**2
+# print(a)
+
+# a = int(input())
+#
+# count = 2
+# while count < a:
+#     print(count)
+#     count = count + 2
+
+# # Кароль
+# x1 = int(input())
+# y1 = int(input())
+#
+# x2 = int(input())
+# y2 = int(input())
+#
+# if x2 == x1 + 1 and y2 == y1 + 1 or y2 == y1 - 1 or y2 == y1:
+#     print('Бьёт')
+# if x2 == x1 - 1 and y2 == y1 + 1 or y2 == y1 - 1 or y2 == y1:
+#     print('Бьёт')
+# if x2 == x1  and y2 == y1 + 1 or y2 == y1 - 1:
+#     print('Бьёт')
+# else:
+#     print('Не бьёт')
+
+# Слон
+x1 = int(input())
+y1 = int(input())
+
+x2 = int(input())
+y2 = int(input())
+

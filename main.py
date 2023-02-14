@@ -125,10 +125,135 @@
 # else:
 #     print('Не бьёт')
 
-# Слон
-x1 = int(input())
-y1 = int(input())
+# # Слон
+# x1 = int(input())
+# y1 = int(input())
+#
+# x2 = int(input())
+# y2 = int(input())
+#
+# if abs(x1 - x2) == abs(y1 - y2):
+#     print('da')
+# else:
+#     print('no')
 
-x2 = int(input())
-y2 = int(input())
+# s = 'python'
+# for i in range (len(s)):
+#     print(s[i])
+
+# s = input()
+# upper = 0
+# lower = 0
+# for i in range(len(s)):
+#     if s[i].islower():
+#         lower = lower+1
+#     if s[i].isupper():
+#         upper = upper + 1
+# print(upper)
+# print(lower)
+
+# s = input()
+# count = 0
+# for i in range(len(s)):
+#     if s[i]== ' ':
+#         count = count + 1
+# print(count+1)
+
+# s = input()
+# c = input()
+# count = 0
+# for i in  s:
+#     if i == c:
+#         count=count+1
+# print(count)
+
+# s = input()
+#
+# digit = 0
+# alpha = 0
+#
+# for i in s:
+#     if i.isdigit():
+#         digit += 1
+#     if i.isalpha():
+#         alpha += 1
+# print(digit)
+# print(alpha)
+
+# li = []
+# size = int(input())
+# for i in range (size):
+#     li.append(input())
+# print(li)
+#
+# max = li[0]
+# for i in li:
+#     if len(i) > len(max):
+#         max = i
+# print(max)
+
+# li = [1,2,3,4,5]
+# print(li[::-1])
+
+# li = [1, 'sasd', 45, 5]
+# a = 0
+# for i in li:
+#     if isinstance(i, int) :
+#         a = a+1
+# print(a)
+
+# li = [55, 6, 7, 88]
+# min = li[0]
+# for i in li:
+#     if i < min:
+#         min = i
+# print(min)
+
+# li = []
+# size = int(input())
+# for i in range (size):
+#     li.append(int(input()))
+# print(li)
+# a = int(input())
+# print(li.count(a))
+
+# li = []
+# size = int(input())
+# for i in range(size):
+#     li.append(int(input()))
+# a = int(input())
+# count = 0
+# for i in li:
+#     if i == a:
+#         count = count + 1
+# if count == 0:
+#     print('НЕТ')
+# else:
+#     print('ЕСТЬ')
+
+# li = [1, 23, 2, 5, 4, 6]
+# count = 0
+# for i in li:
+#     if i % 2 == 0:
+#         count = count + 1
+# print(count)
+#
+# li = ['hgjhg', 'fuuu', 'hj', 'uu']
+# a = input()
+# count = 0
+# for i in li:
+#     if i[0] == a:
+#         count += 1
+# print(count)
+
+# li = []
+# size = int(input())
+# for i in range(size):
+#     li.append(input())
+# min = li[0]
+# for i in li:
+#     if len(i)<len(min):
+#         min = i
+# print(min)
+
 

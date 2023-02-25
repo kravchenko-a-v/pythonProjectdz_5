@@ -257,3 +257,191 @@
 # print(min)
 
 
+# a = input()
+# b = a[::-1]
+# if a == b:
+#     print('Является полиндромом')
+# else:
+#     print('Не является полиндромом')
+
+
+# li = []
+# size = int(input())
+# for i in range(size):
+#     li.append(input())
+# Lo = []
+# for i in li:
+#     b = 0
+#     for a in li:
+#         if i == a:
+#             b = b + 1
+#     if b == 1:
+#         Lo.append(i)
+# print(Lo)
+
+# a = 'as12hg1'
+# count = 0
+# for i in a:
+#     if i.isdigit():
+#         count = count + 1
+# print(count)
+
+# di = {'Сидоров': 5674321, 'Петров': 7655432, 'Иванов': 8765432}
+# print(di.get(input()))
+
+# di = {'Сидоров': 5674321, 'Петров': 7655432, 'Иванов': 8765432, 'nbm' : 'fgugu', 654564: 7686}
+# count = 0
+# for key, value in di.items():
+#     if isinstance(key, int):
+#         count += 1
+#     if isinstance(value, int):
+#         count += 1
+# print(count)
+
+# di = {1: 'jh', 5: 'uyf', 3: 'ytf'}
+# m = list(di.keys())[0]
+# for i in di.keys():
+#     if i > m:
+#         m = i
+# print(di.get(m))
+
+# di = {'1': 'jh', '5': 'uyf', '3': 'ytf'}
+# ke = input()
+# va = input()
+# for key, value in di.items():
+#     if key == ke:
+#         print('Есть ключ')
+#     else:
+#         print('Нет ключа')
+#     if value == va:
+#         print('Есть значение')
+#     else:
+#         print('Нет значения')
+#
+# d = {'1':'2', '2':'123'}
+# k = input()
+# v = input()
+# value = d.get(k)
+# if value == v:
+#     print('содержит')
+# else:
+#     print('не содержит')
+
+# li = []
+# size = int(input())
+# for i in range(size):
+#     li.append(input())
+# print(li[::-1])
+
+# a = input()
+# b = input()
+# count = 0
+# for i in a:
+#     if i == b:
+#         count +=1
+# print(count)
+
+# li = [1,2,3,4,5]
+# a = 0
+# for i in li:
+#     a = a + i
+# b = a/len(li)
+# print(b)
+# c = 1
+# for i in li:
+#     c = c * i
+# d = c ** (1/len(li))
+# print(d)
+
+# st = 'hjfggggjhgjhgjh'
+# li = list(st)
+# a = li.count(li[0])
+# b = li[0]
+# for i in li:
+#     if li.count(i) > a:
+#         a = li.count(i)
+#         b = i
+# print(b)
+
+# n = int(input())
+# a = n-1
+# for i in range(n,n*n,a):
+#     print(i)
+
+# import random
+#
+# l = []
+# for i in range(5):
+#     l.append((random.randint(1, 1000)))
+# print(l)
+# a = l[0]
+# for i in l:
+#     if i > a:
+#         a = i
+# b = l[0]
+# for i in l:
+#     if i > b and i != a:
+#         b = i
+# print(b)
+
+
+# import random
+#
+# l = []
+# for i in range(3):
+#     l.append((random.randint(1, 1000)))
+# print(l)
+# s = 0
+# p = 1
+# for i in l:
+#     s = s + i
+#     p = p * i
+# if s == p:
+#     print('равны')
+# else:
+#     print('не равны')
+
+
+# l = ['jhkh', 'Giuhh', 'Iho', 'hbkjh']
+# for i in l:
+#     if i[0].isupper():
+#         print(i)
+# import os
+# f = open ('input.txt', 'r+')
+# f.write ('5475765765')
+#
+# os.renames('input.txt', 'ort.txt')
+
+# try:
+#     a = int(input())
+# except ValueError:
+#     a = int(input('Введите число заново'))
+
+import random as r
+import os
+
+f = open('input.txt', 'r+')
+
+for i in f:
+    i = i.replace('\n', '')
+    s = i.split(' ')
+    if s[1] == '+':
+        if int(s[0]) + int(s[2]) == int(s[4]):
+            print('Правда')
+        else:
+            print('Неправда')
+    if s[1] == '-':
+        if int(s[0]) - int(s[2]) == int(s[4]):
+            print('Правда')
+        else:
+            print('Неправда')
+    if s[1] == '*':
+        if int(s[0]) * int(s[2]) == int(s[4]):
+            print('Правда')
+        else:
+            print('Неправда')
+    if s[1] == '/':
+        if int(s[0]) / int(s[2]) == int(s[4]):
+            print('Правда')
+        else:
+            print('Неправда')

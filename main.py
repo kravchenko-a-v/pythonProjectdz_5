@@ -420,28 +420,88 @@
 import random as r
 import os
 
-f = open('input.txt', 'r+')
+# f = open('input.txt', 'r+')
+#
+# for i in f:
+#     i = i.replace('\n', '')
+#     s = i.split(' ')
+#     if s[1] == '+':
+#         if int(s[0]) + int(s[2]) == int(s[4]):
+#             print('Правда')
+#         else:
+#             print('Неправда')
+#     if s[1] == '-':
+#         if int(s[0]) - int(s[2]) == int(s[4]):
+#             print('Правда')
+#         else:
+#             print('Неправда')
+#     if s[1] == '*':
+#         if int(s[0]) * int(s[2]) == int(s[4]):
+#             print('Правда')
+#         else:
+#             print('Неправда')
+#     if s[1] == '/':
+#         if int(s[0]) / int(s[2]) == int(s[4]):
+#             print('Правда')
+#         else:
+#             print('Неправда')
 
-for i in f:
-    i = i.replace('\n', '')
-    s = i.split(' ')
-    if s[1] == '+':
-        if int(s[0]) + int(s[2]) == int(s[4]):
-            print('Правда')
-        else:
-            print('Неправда')
-    if s[1] == '-':
-        if int(s[0]) - int(s[2]) == int(s[4]):
-            print('Правда')
-        else:
-            print('Неправда')
-    if s[1] == '*':
-        if int(s[0]) * int(s[2]) == int(s[4]):
-            print('Правда')
-        else:
-            print('Неправда')
-    if s[1] == '/':
-        if int(s[0]) / int(s[2]) == int(s[4]):
-            print('Правда')
-        else:
-            print('Неправда')
+# f = open('input.txt', 'r')
+#
+# l = []
+# for i in f:
+#     i = i.replace('\n', '')
+#     s = i.split(' ')
+#     for j in s:
+#         try:
+#             l.append(int(j))
+#         except ValueError:
+#             l.append(0)
+# print(l)
+# mi = l[0]
+# ma = l[0]
+# for i in l:
+#     if i < mi:
+#         mi = i
+#     if i > ma:
+#         ma = i
+# print(mi)
+# print(ma)
+# l.sort(reverse=True)
+# print(l)
+# for i in range(len(l)):
+#     for j in range(i + 1, len(l)):
+#         if l[i] > l[j]:
+#             l[i], l[j] = l[j], l[i]
+# print(l)
+
+# f = open('input.txt', 'r')
+# count = 0
+# for i in f:
+#     for j in i:
+#         if j == '.':
+#             count = count + 1
+# print(count)
+
+
+# f = open('input.txt', 'r', encoding='utf-8')
+# ma = 0
+# max = ''
+# for i in f:
+#     l = i.split('.')
+#     for j in l:
+#         if len(j) > len(max):
+#             max = j
+# print(f'{max} \nв нем содержится {len(max)} символов')
+
+# # удалить из предложения все слова, длинна которых составляет одну букву
+#
+# f = open('input.txt', 'r', encoding='utf-8')
+#
+# max = ''
+# for i in f:
+#     l = i.split('.')
+#     for j in l:
+#         if len(j) > len(max):
+#             max = j
+# print(f'{max} \nв нем содержится {len(max)} символов')

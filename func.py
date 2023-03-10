@@ -60,11 +60,50 @@
 # print(max_value({'a': 'ghg', 'sda': 'oijiojo', 'yuyu3': 'i'}))
 
 
-def fun(*args):
-    count = 0
-    for i in args:
-        if isinstance(i, int):
-            if i % 2 == 0:
-                count +=1
-    return count
-print(fun(1,4, 'fd', 2))
+# def fun(*args):
+#     count = 0
+#     for i in args:
+#         if isinstance(i, int):
+#             if i % 2 == 0:
+#                 count +=1
+#     return count
+# print(fun(1,4, 'fd', 2))
+
+# def longest_key(*args):
+#     count = 0
+#     for i in args:
+#         try:
+#             if i % 2 == 0:
+#                 count += 1
+#         except Exception:
+#             pass
+#     return count
+#
+# print(longest_key(1,2,3,'123','132',4,5))
+
+# a = input()
+# count = 1
+# for i in a:
+#     if i == ' ':
+#         count +=1
+# print (count)
+
+# def MaX(a):
+#     count = 0
+#     for i in a.read().split():
+#         if i.isalpha():
+#             count += 1
+#     return count
+#
+#
+# f = open('r.txt', 'r')
+#
+# print(MaX(f))
+
+def MaX(a):
+    return len(a.split(' '))
+
+
+f = open('r.txt', 'r')
+
+print(MaX(f))
